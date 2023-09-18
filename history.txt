@@ -1,0 +1,186 @@
+   39  python3 ok -q sum_digits
+   40  python3 ok -q sum_digits
+   41  def sum_digits(y):\n    """Sum all the digits of y.\n\n    >>> sum_digits(10) # 1 + 0 = 1\n    1\n    >>> sum_digits(4224) # 4 + 2 + 2 + 4 = 12\n    12\n    >>> sum_digits(1234567890)\n    45\n    >>> a = sum_digits(123) # make sure that you are using return rather than print\n    >>> a\n    6\n    """\n    new_y = len(str(y))\n    count = 0\n    for i in range(new_y):\n        count += int(new_y[i])\n    return count
+   42  python3 ok -q sum_digits
+   43  python3 ok -q sum_digits
+   44  python3 ok -q sum_digits
+   45  python3 ok -q sum_digits
+  142  python3 ok -q missing_digits
+  144  python3 ok -q missing_digits
+  251  python3 ok -q store_digits
+  782  git status
+  784  git status
+  785  git add .
+  787  git status
+  788  git commit -m "files"
+  789  git push
+  799  git pull
+  800  git status
+  801  git commit
+  802  git status
+  803  git commit
+  804  git add .
+  805  git status
+  806  git commit
+  807  git status
+  812  git status
+  813  git commit -m "adding the ingredients file"
+  814  git status
+  815  git push
+  820  git commit -m "new update in Ingredients"
+  821  git add .
+  822  git status
+  823  git commit -m "updating ingredients"
+  824  git push
+  825  git status
+  828  git pull
+  830  git pull
+  833  git pull
+  834  git status
+  835  git init
+  836  git status
+  840  git status
+  841  git add file_1.txt
+  842  git status
+  843  git commit file_1.txt
+  844  git status
+  845  git commit -m 'create file_1.txt'
+  846  git status
+  847  git log
+  851  find . -type d -name .git\n
+  852  find . -type d -name .git\n
+  853  git config --list
+  854  git config --global user.name "Isaac Aguilar"
+  855  git config --global user.global user.email "oscarisaacaguilarembila@gmail.com"
+  856  git config --list
+  857  git config --global user.email "oscarisaacaguilarembila@gmail.com"
+  858  git config --list
+  859  git config --global --unset user.global
+  860  git config --list
+  890  find /path/to/parent/directory -type d -name ".git"\n
+  891  find -type d -name ".git"\n
+  892  find  d -name ".git"\n
+  899  git dtatus
+  900  git status
+  904  git status
+  905  git add .
+  906  git commit -m 'test adding stuff'
+  907  git push
+  908  git remote add main git@github.com:isaacaguilar97/isaacaguilar97.git
+  909  git push
+  910  git push -u main main
+  911  git status
+  913  git add .
+  914  git commit -m 'tetsing'
+  915  git status
+  916  git add .
+  917  git status
+  919  git add file_1.txt
+  920  git status
+  922  git status
+  931  git status
+  933  git add .
+  934  git status
+  935  git commit -m 'Perfome an EDA with data'
+  936  git push
+  937  git status
+  941  touch .gitignore
+  942  nano .gitignore
+  943  git status
+  944  git add .
+  945  git commit -m 'add .gitignore file'
+  946  git status
+  954  git status
+  957  touch .gitignore
+  958  nano .gitignore
+  959  git add .
+  960  git status
+  961  git commit -m 'Add .gitignore file'
+  962  git push
+  963  git status
+  964  git branch
+  965  git remote
+  971  git remote add origin git@github.com:isaacaguilar97/git-practice-isaacaguilar97.git
+  972  git status
+  974  git remote
+  975  git remote -v
+  976  git remote remove main
+  977  git remote -v
+  978  git push -u origin main
+  981  git status
+  982  git add .
+  983  git commit -m 'Add Analysis file'
+  984  git push
+  985  git status
+  988  git status
+  989  git log
+  990  git branch -r
+  991  git branch -a
+  996  git status
+  997  git add .
+  998  git commit -m 'Add linear regression'
+  999  git push
+ 1002  git status
+ 1003  rm -rf .git
+ 1004  mkdir git_practice
+ 1007  rm -rf .gitignore
+ 1009  cd git_practice
+ 1010  git init
+ 1011  git status
+ 1014  git status
+ 1015  git add .
+ 1016  git commit -m 'create new files'
+ 1017  git status
+ 1018  git log
+ 1021  git add file_1.txt
+ 1022  git commit -m 'edits from file 1'
+ 1023  git add file_2.txt
+ 1024  git commit -m 'edits from file 2'
+ 1025  git log
+ 1028  git add .
+ 1029  git status
+ 1030  git commit -m 'add read me file'
+ 1031  git status
+ 1032  touch .gitignore
+ 1033  nano .gitignore
+ 1034  git add .
+ 1035  git status
+ 1036  git commit -m 'add git ignore file'
+ 1037  git status
+ 1040  git status
+ 1046  git status
+ 1047  git add . 
+ 1048  git commit -m 'Add Poisson Regression analysis'
+ 1049  git push
+ 1054  cd git_practice
+ 1055  git status
+ 1056  git branch features
+ 1057  git switch features
+ 1058  git log
+ 1060  git status
+ 1061  git add .
+ 1062  git commit -m 'add empty file'
+ 1064  git status
+ 1065  git commit -a -m 'add text to new_features file'
+ 1066  git switch main
+ 1069  git commit -a -m 'edit file 1'
+ 1070  git merge features
+ 1071  git log --pretty=oneline
+ 1073  git commit -a -m 'update features'
+ 1074  git switch features
+ 1076  git commit -a -m 'adding some features'
+ 1077  git switch main
+ 1078  git merge features
+ 1080  git commit -a -m 'fixing conflicts in features'
+ 1081  git branch -d features
+ 1082  git remote add origin git@github.com:isaacaguilar97/git-practice-isaacaguilar97.git
+ 1083  git push -u origin main
+ 1085  git clone git@github.com:isaacaguilar97/git-practice-jbfish00.git
+ 1087  cd git-practice-jbfish00
+ 1089  git branch feature-Isaac
+ 1090  git switch feature-Isaac
+ 1094  git commit -a -m 'add a new joke and add fav_song file'
+ 1095  git push origin feature-Isaac
+ 1097  cd git-practice
+ 1098  cd git_practice
+ 1099  git log --oneline > gitlog.txt

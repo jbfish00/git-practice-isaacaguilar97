@@ -1,0 +1,12 @@
+7fc5b41 fixing conflicts in features
+88bf8d8 adding some features
+fc5869b update features
+693b062 Merge branch 'features' It is very nesserary
+ee15bfa edit file 1
+9de75f9 add text to new_features file
+820ba67 add empty file
+0582edc add git ignore file
+886d5af add read me file
+8eee1f7 edits from file 2
+0e4f58f edits from file 1
+a8263dc create new files
